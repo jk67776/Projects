@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codelab</title>
+    
+</head>
+<style>
+ *{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(240, 248, 255);
+        }
+
+        /* Navbar: logo left, links + button right */
+        nav {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            
+            background: #442626;
+            color: white;
+            padding: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style:none; 
+            border:;
+                }
+
+        nav a {
+            color: white;
+            text-decoration:none;
+        }
+
+        .btn {
+            background: #ffb703;
+            border: 0;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        /* Hero: everything in the centre */
+        .hero {
+            display: flex;
+            flex-direction:column;
+            align-items:center ;
+            justify-content: center;
+            gap: 15px;
+            height: 300px;
+            padding: 16px;
+            text-align: center;
+            background: #d281eb;
+            color: rgb(24, 3, 3);
+            border:5px;
+            
+            
+        }
+
+        /* Cards: wrap when there is no space */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 10px;
+        }
+
+        .card {
+            flex: 200px;
+            
+            background: #e0cbcb;
+            padding: 20px;
+            border-radius: 10px;
+            text-align:center ;
+        }
+   
+</style>
+<body>
+    <nav>
+        <h2>CodeLab</h2>
+        <ul>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#" >Courses</a></li>
+            <li><a href="#" >Contact</a></li>
+            
+        </ul>
+        <button class="btn">Sign up</button>
+    </nav>
+    <div class="hero">
+        <h1>Learn Web Devlopment</h1>
+        <p>start from zero.build real projects.</p>
+        <button class="btn">Get started</button>
+    
+    </div>
+    <div class="cards">
+        <div class="card">
+            <h3>HTML</h3>
+            <P>Build the structure</P>
+        </div >
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Make your text beautiful</p>
+        </div>
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>make it smart</p>
+        </div>
+        <div class="card">
+            <h3>Git</h3>
+            <p>Sve your work</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
